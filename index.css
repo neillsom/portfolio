@@ -1,10 +1,23 @@
-
-
 html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;
   font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
-  margin: 0 50px;
 }
 
+*,
+:after,
+:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit
+}
+
+body,
+html {
+  margin: 0
+}
 
 h1 {
   font-size: 5em;
@@ -14,13 +27,42 @@ h2 {
   font-size: 2em;
 }
 
+.flex-col {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center
+}
+
+.flex-row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center
+}
+
+.reverse {
+  -webkit-flex-direction: row-reverse;
+  flex-direction: row-reverse
+}
+
 ul li {
   display: inline-block;
   margin: 3px;
 }
 
 .projects div {
-  background-color: #F7F7F7;
+/*  background-color: #F7F7F7;*/
   padding: 20px;
   margin: 10px;
   border-radius: 2px;
@@ -58,6 +100,52 @@ a:active {
   color: white;
 }
 
+
+.main {
+  margin: 0 auto;
+}
+
+.contact-info {
+		text-align: center
+}
+.main h2 {
+		text-align: center;
+}
+
+h1, header {
+		background-color: #F7F7F7;
+}
+
+footer {
+		text-align: center
+}
+
+footer, header, section {
+  max-width: 1020px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1.5em;
+  line-height: 150%
+}
+
+.project-group {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-each {
+	background-color: #F7F7F7;
+		border-radius: 4px;
+		margin: 10px auto;
+}
+
+.project-group>li {
+  width: 100%;
+  margin: 2em auto;
+  clear: both;
+}
+
 .col-1 {
   width: 30%;
   display: inline-block;
@@ -80,17 +168,29 @@ a:active {
 }
 
 .project-links,
-.project-skills {
+.project-skills-list {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
   width: 100%;
 }
-/*
-.project-links>li {
+
+ul.project-links {
+	margin: 0 0 1.65em;
+}
+
+.project-skills-list>li {
   display: inline-block;
-  text-align: center;
   vertical-align: middle;
-  width: 49%
-}*/
+  margin: 1.5em;
+  width: 20%
+}
+
+.project-skills-each {
+  font-size: .65em;
+  padding: .25em;
+  background-color: white;
+  color: black;
+  border-radius: 2px;
+}
