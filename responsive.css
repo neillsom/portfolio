@@ -1,0 +1,156 @@
+@media only screen and (max-width:736px) {
+	html {
+		font-size: 16px
+	}
+}
+
+@media only screen and (max-width:300px) {
+	html {
+		font-size: 14px
+	}
+}
+
+@media only screen and (max-width:736px) {
+	h1 {
+		font-size: 3.5rem
+	}
+}
+
+@media only screen and (max-width:300px) {
+	h1 {
+		font-size: 2.5rem
+	}
+}
+
+@media only screen and (max-width:736px) {
+	h2 {
+		font-size: 1.5rem
+	}
+}
+
+@media only screen and (max-width:300px) {
+	h2 {
+		font-size: 1.25rem
+	}
+}
+
+@media only screen and (max-width:736px) {
+	.reverse {
+		-webkit-flex-direction: row-reverse;
+		flex-direction: row
+	}
+}
+
+@media (max-height:700px) {
+	a.look-around {
+		display: none
+	}
+}
+
+@media only screen and (max-width:736px) {
+	a.look-around {
+		display: none
+	}
+}
+
+@media only screen and (max-width:736px) {
+	.hero {
+		padding: 1.5em 0;
+		height: 100%
+	}
+}
+
+@media only screen and (max-width:300px) {
+	.hero {
+		padding: 1.5em 0
+	}
+}
+
+@media only screen and (max-width:736px) {
+	.hero-heading {
+		margin: .05em
+	}
+}
+
+@media only screen and (max-width:736px) {
+	h3.hero-subheading {
+		max-width: 100%
+	}
+}
+
+@-webkit-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-20px)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0)
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20px)
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0)
+	}
+}
+
+@media only screen and (max-width:736px) {
+	.nav-items {
+		padding: 1.5em 0;
+		width: 49%
+	}
+}
+
+@media only screen and (max-width:300px) {
+	.nav-items {
+		width: 100%
+	}
+}
+
+@media only screen and (max-width:736px) {
+	.project-group>li {
+		margin: .5em 0
+	}
+}
+
+@media only screen and (max-width:736px) {
+	.col-1 {
+		width: 45%;
+		display: block
+	}
+}
+
+@media only screen and (max-width:300px) {
+	.col-1 {
+		width: 80%
+	}
+}
+
+@media only screen and (max-width:736px) {
+	.col-2 {
+		width: 100%;
+		display: block;
+		margin: 1.75em auto
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.project-links>li {
+		width: 100%;
+		margin: .5em auto
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.project-skills>li {
+		width: 40%;
+		margin: .5em auto
+	}
+}
+

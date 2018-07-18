@@ -3,7 +3,8 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 100%;
-  font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 *,
@@ -19,12 +20,68 @@ html {
   margin: 0
 }
 
-h1 {
+.hero {
+  background-image: url(assets/david-alacaraz-328950-unsplash.jpg);
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  height: 50vh;
+  width: 100%;
+  width: 100vw;
+  max-width: 100%;
+  padding: 12vh 0
+}
+
+.hero-heading {
+  text-transform: uppercase;
+  line-height: 74px;
+  letter-spacing: 1px;
   font-size: 5em;
+  color: black;
+  font-style: normal;
+  text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.65); 
+  /*background: rgba(255, 255, 255, .66);*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin: .25em auto;
+  line-height: 100px;
+}
+
+.hero-subheading {
+  background: rgba(255, 255, 255, .66);
+  text-align: center;
+  padding: .25em .5em;
+  margin: 0 auto .7em;
+  display: inline-block
+}
+
+h3.hero-subheading {
+  max-width: 90%
 }
 
 h2 {
   font-size: 2em;
+}
+
+nav {
+  background-color: black;
+  width: 100%
+}
+
+.nav {
+  margin: 0 auto;
+  max-width: 1020px;
+  list-style: none;
+  display: flex;
+  padding: 0
+}
+
+.nav-items {
+  padding: 1em 0;
+  margin: auto;
+  text-align: center
 }
 
 .flex-col {
@@ -112,9 +169,9 @@ a:active {
 		text-align: center;
 }
 
-h1, header {
+/*h1, header {
 		background-color: #F7F7F7;
-}
+}*/
 
 footer {
 		text-align: center
@@ -193,4 +250,15 @@ ul.project-links {
   background-color: white;
   color: black;
   border-radius: 2px;
+}
+
+.contact-list {
+  list-style: none;
+  text-align: center;
+  margin: 1em auto 2em;
+  padding: 0
+}
+
+.contact-list>li {
+  margin: 1em 0
 }
