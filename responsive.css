@@ -11,14 +11,14 @@
 }
 
 @media only screen and (max-width:736px) {
-	h1 {
+	h1.hero-heading {
 		font-size: 3.5rem
 	}
 }
 
-@media only screen and (max-width:300px) {
-	h1 {
-		font-size: 2.5rem
+@media only screen and (max-width:320px) {
+	h1.hero-heading {
+		font-size: 2.0rem
 	}
 }
 
@@ -103,7 +103,7 @@
 @media only screen and (max-width:736px) {
 	.nav-items {
 		padding: 1.5em 0;
-		width: 49%
+		width: 33%
 	}
 }
 
@@ -116,6 +116,22 @@
 @media only screen and (max-width:736px) {
 	.project-group>li {
 		margin: .5em 0
+	}
+}
+
+@media only screen and (max-width:736px) {
+	img.col-1 {
+		margin-top: 30px;
+		width: 80%;
+	}
+}
+
+
+
+@media only screen and (max-width:320px) {
+	img.col-1 {
+		margin-top: 30px;
+		width: 80%;
 	}
 }
 
@@ -154,3 +170,12 @@
 	}
 }
 
+@media only screen and (max-width:320px) {
+	.project-skills-list>li {
+		display: inline-block;
+		vertical-align: middle;
+		margin: .5em;
+		width: auto;
+		color: red;
+	}
+}
