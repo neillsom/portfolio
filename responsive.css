@@ -74,7 +74,7 @@
 
 @media only screen and (max-width:736px) {
 	h3.hero-subheading {
-		max-width: 100%
+		max-width: 90%
 	}
 }
 
@@ -176,6 +176,5 @@
 		vertical-align: middle;
 		margin: .5em;
 		width: auto;
-		color: red;
 	}
 }

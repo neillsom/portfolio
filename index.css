@@ -34,30 +34,32 @@ html {
 }
 
 .hero-heading {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   line-height: 74px;
   letter-spacing: 1px;
   font-size: 5em;
   color: black;
   font-style: normal;
-  text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.65); 
-  /*background: rgba(255, 255, 255, .66);*/
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 900;
+  /*text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.65); */
+  background: rgba(255, 255, 255, .66);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   text-align: center;
   margin: .25em auto;
-  line-height: 100px;
+  /*line-height: 100px;*/
 }
 
 .hero-subheading {
   background: rgba(255, 255, 255, .66);
   text-align: center;
   padding: .25em .5em;
-  margin: 0 auto .7em;
-  display: inline-block
+  margin: 10 auto .7em;
+  display: inline-block;
+  font-weight: 400;
 }
 
 h3.hero-subheading {
+  margin-top: 0;
   max-width: 90%
 }
 
@@ -241,11 +243,11 @@ ul.project-links {
   display: inline-block;
   vertical-align: middle;
   margin: 1.5em;
-  width: 20%
+  /*width: 25%*/
 }
 
 .project-skills-each {
-  font-size: .65em;
+  font-size: .7em;
   padding: .25em;
   background-color: white;
   color: black;
