@@ -40,7 +40,6 @@ html {
   font-size: 5em;
   color: black;
   font-style: normal;
-  /*text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.65); */
   background: rgba(255, 255, 255, .66);
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -159,6 +158,9 @@ a:active {
   color: white;
 }
 
+div.about-text {
+  font-size: 1.05em;
+}
 
 .main {
   margin: 0 auto;
@@ -170,10 +172,6 @@ a:active {
 .main h2 {
 		text-align: center;
 }
-
-/*h1, header {
-		background-color: #F7F7F7;
-}*/
 
 footer {
 		text-align: center
@@ -248,8 +246,8 @@ ul.project-links {
 
 .project-skills-each {
   font-size: .7em;
-  padding: .25em;
-  background-color: white;
+  padding: .2em .6em;
+  background-color: #E8E8E8;
   color: black;
   border-radius: 2px;
 }
