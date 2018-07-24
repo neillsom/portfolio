@@ -158,15 +158,34 @@
 
 @media only screen and (max-width:400px) {
 	.project-links>li {
-		width: 100%;
-		margin: .5em auto
+		/*width: 100%;*/
+		margin: .5em auto;
 	}
 }
+
 
 @media only screen and (max-width:400px) {
 	.project-skills>li {
 		width: 40%;
-		margin: .5em auto
+		margin: .5em auto, 
+	}
+}
+
+@media only screen and (max-width:420px) {
+	.project-skills-list>li {
+		display: inline-block;
+		vertical-align: middle;
+		margin: .5em;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.project-skills-list>li {
+		display: inline-block;
+		vertical-align: middle;
+		margin: .5em;
+		width: auto;
 	}
 }
 

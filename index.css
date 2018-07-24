@@ -199,8 +199,8 @@ section {
   margin: 10px auto;
   border: 2px solid black;
   -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
--moz-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }
 
 .project-group>li {
