@@ -4,7 +4,6 @@ html {
   box-sizing: border-box;
   font-size: 100%;
   font-family: 'Roboto', sans-serif;
-
 }
 
 *,
@@ -21,7 +20,7 @@ html {
 }
 
 .hero {
-  background-image: url(assets/david-alacaraz-328950-unsplash.svg);
+  background-image: url(assets/trees.jpg);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -40,7 +39,7 @@ html {
   font-size: 5em;
   color: black;
   font-style: normal;
-  background: rgba(255, 255, 255, .66);
+  /*background: rgba(255, 255, 255, .66);*/
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-align: center;
@@ -120,9 +119,9 @@ ul li {
 }
 
 .projects div {
-/*  background-color: #F7F7F7;*/
   padding: 20px;
   margin: 10px;
+  ;
   border-radius: 2px;
 }
 
@@ -167,17 +166,20 @@ div.about-text {
 }
 
 .contact-info {
-		text-align: center
+  text-align: center
 }
+
 .main h2 {
-		text-align: center;
+  text-align: center;
 }
 
 footer {
-		text-align: center
+  text-align: center
 }
 
-footer, header, section {
+footer,
+header,
+section {
   max-width: 1020px;
   margin: 0 auto;
   overflow: hidden;
@@ -192,9 +194,13 @@ footer, header, section {
 }
 
 .project-each {
-	background-color: #F7F7F7;
-		border-radius: 4px;
-		margin: 10px auto;
+  background-color: #F7F7F7;
+  border-radius: 4px;
+  margin: 10px auto;
+  border: 2px solid black;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }
 
 .project-group>li {
@@ -221,7 +227,7 @@ footer, header, section {
   font-weight: 700;
   text-align: center;
   margin: 0 auto .5em;
-  font-size: 1.15rem
+  font-size: 1.4rem
 }
 
 .project-links,
@@ -234,7 +240,7 @@ footer, header, section {
 }
 
 ul.project-links {
-	margin: 0 0 1.65em;
+  margin: 0 0 1.65em;
 }
 
 .project-skills-list>li {
