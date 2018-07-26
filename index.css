@@ -1,3 +1,7 @@
+* {
+  -webkit-padding-start: 0;
+}
+
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -20,7 +24,7 @@ html {
 }
 
 .hero {
-  background-image: url(assets/trees.jpg);
+  background-image: url(assets/neill_somerville_portfolio.jpg);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -33,18 +37,15 @@ html {
 }
 
 .hero-heading {
-  /*text-transform: uppercase;*/
   line-height: 74px;
   letter-spacing: 1px;
   font-size: 5em;
   color: black;
   font-style: normal;
-  /*background: rgba(255, 255, 255, .66);*/
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   text-align: center;
   margin: .25em auto;
-  /*line-height: 100px;*/
 }
 
 .hero-subheading {
@@ -83,6 +84,8 @@ nav {
   margin: auto;
   text-align: center
 }
+
+.nav-items a {}
 
 .flex-col {
   display: -webkit-flex;
@@ -158,7 +161,8 @@ a:active {
 }
 
 div.about-text {
-  font-size: 1.05em;
+  font-size: 1.125em;
+  line-height: 1.566em
 }
 
 .main {
@@ -198,9 +202,6 @@ section {
   border-radius: 4px;
   margin: 10px auto;
   border: 2px solid black;
-  -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
-  -moz-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
-  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }
 
 .project-group>li {
@@ -247,7 +248,6 @@ ul.project-links {
   display: inline-block;
   vertical-align: middle;
   margin: 1.5em;
-  /*width: 25%*/
 }
 
 .project-skills-each {
@@ -255,7 +255,26 @@ ul.project-links {
   padding: .2em .6em;
   background-color: #E8E8E8;
   color: black;
-  border-radius: 2px;
+  font-family: consolas;
+  vertical-align: middle;
+}
+
+h2#contact.section-header {
+  margin: 0;
+}
+
+section.contact-info {
+  padding-bottom: 0;
+}
+
+footer {
+  padding-top: 0;
+  background-color: black;
+  color: white;
+}
+
+footer * {
+  padding-top: 10px;
 }
 
 .contact-list {
