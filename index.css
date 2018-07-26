@@ -23,6 +23,10 @@ html {
   margin: 0
 }
 
+p {
+  color: #444;
+}
+
 .hero {
   background-image: url(assets/neill_somerville_portfolio.jpg);
   background-size: cover;
@@ -270,11 +274,11 @@ section.contact-info {
 footer {
   padding-top: 0;
   background-color: black;
-  color: white;
 }
 
 footer * {
   padding-top: 10px;
+  color: white;
 }
 
 .contact-list {
