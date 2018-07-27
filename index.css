@@ -185,7 +185,6 @@ footer {
   text-align: center
 }
 
-footer,
 header,
 section {
   max-width: 1020px;
@@ -255,7 +254,7 @@ ul.project-links {
 }
 
 .project-skills-each {
-  font-size: .7em;
+  font-size: .73em;
   padding: .2em .6em;
   background-color: #E8E8E8;
   color: black;
@@ -271,12 +270,17 @@ section.contact-info {
   padding-bottom: 0;
 }
 
-footer {
+.footer {
   padding-top: 0;
   background-color: black;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1.5em;
+  line-height: 150%;
+  font-size: .8em;
 }
 
-footer * {
+.footer * {
   padding-top: 10px;
   color: white;
 }
