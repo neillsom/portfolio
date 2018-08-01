@@ -194,6 +194,13 @@ section {
   line-height: 150%
 }
 
+.project-name span {
+  font-style: italic;
+  font-weight: 400;
+  color: #444;
+  font-size: 80%
+}
+
 img.col-1 {
   outline: 2px solid #64635533;
 }
