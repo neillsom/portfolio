@@ -28,12 +28,12 @@ p {
 }
 
 .hero {
-  background-image: url(assets/Jay_Mantri_fog-foggy-forest-4827_neill_somerville_portfolio.jpg);
+  background-image: url('https://lh6.googleusercontent.com/eFfZs1pa2obI5DdeLZLkF3Om-ve4N3dOhnq64iuRZSx4C3kwTgzCQmfLL5WtIjqW273qohus7SvVocrC4QhL=w1920-h979-rw');
   background-size: cover;
   position: relative;
   text-align: center;
   height: 100%;
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   width: 100vw;
   max-width: 100%;
@@ -202,7 +202,7 @@ section {
 }
 
 img.col-1 {
-  outline: 2px solid #64635533;
+  outline: 1px solid #64635533;
 }
 
 .project-group {
